@@ -1,0 +1,117 @@
+@import 'index.scss';
+
+.card {
+
+    background: url("bg-2.png");
+    width: 380px;
+    height: 215px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.place {
+    position: relative;
+    top: 47%;
+
+}
+
+.place h1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.2em 1em;
+    margin: 0;
+}
+
+
+.place h2 {
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0.2em 1.2em;
+    margin: 0;
+}
+
+
+.country {
+    position: relative;
+    left: 70%;
+    top: 10%;
+    width: 22%;
+    height: 5%;
+}
+
+.country a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border: 0.5px;
+    border-radius: 10px;
+    background: red;
+    font-family: "Times New Roman", Times, serif;
+    transition: all 1s ease;
+}
+
+.country a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+.review {
+    position: relative;
+    top: 100;
+    
+
+}
+
+.review p {
+    height: 24px;
+    line-height: 24px;
+    color: 9B9393;
+    font-size: 1em;
+    padding: 0.2em 1em;
+    margin: 0;
+    
+}
+
+.tab { 
+    align-items: center; /* align vertical */
+    line-height: normal;
+    margin-left: 10px; 
+    margin-top: 100px;
+    position: relative;
+    bottom: 25%;
+    text-shadow: 22px 2px 4px #000000;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.container .card {
+    flex-grow:0;
+    flex-basis:380px;
+}
+/* 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.flex-container .flex-item{
+    background: red;
+    padding: 0 50px;
+    margin: 10px;
+    flex:1;
+    mid-width:32px;
+
+} */
